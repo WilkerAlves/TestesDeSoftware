@@ -2,7 +2,7 @@
 using Features.Clientes;
 using Xunit;
 
-namespace Features.Tests.Traits
+namespace Features.Tests
 {
     public class ClienteTests
     {
@@ -13,7 +13,7 @@ namespace Features.Tests.Traits
         // Assert
 
         [Fact(DisplayName = "Novo Cliente Válido")]
-        [Trait("Categoria", "Cliente Trait Testes")]
+        [Trait("Categoria", "Cliente - Trait")]
         public void Cliente_NovoCliente_DeveEstarValido()
         {
             // Arrange
@@ -35,7 +35,7 @@ namespace Features.Tests.Traits
         }
 
         [Fact(DisplayName = "Novo Cliente Inválido")]
-        [Trait("Categoria", "Cliente Trait Testes")]
+        [Trait("Categoria", "Cliente - Trait")]
         public void Cliente_NovoCliente_DeveEstarInvalido()
         {
             // Arrange
