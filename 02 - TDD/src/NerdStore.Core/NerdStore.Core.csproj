@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="fluentValidation" Version="8.6.2" />
+  </ItemGroup>
+
 </Project>
